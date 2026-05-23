@@ -5,7 +5,7 @@ st.title("Website Cahaya Komobepa")
 st.subheader("Selamat datang di website Cahay Komobepa")
 menu = st.sidebar.selectbox(
     "Pilih Menuh",
-    ["Beranda", Tentang", "Kontak"]
+    ["Beranda", Tentang", "kontak"]
 )
 if menu == "Beranda":
     st.write("Ini adalah halaman utama website.")
